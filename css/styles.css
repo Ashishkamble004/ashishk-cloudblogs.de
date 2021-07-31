@@ -10858,3 +10858,15 @@ textarea.form-control-lg {
   width: 4rem;
   font-size: 2rem;
 }
+.navbar .nav-item:not(:last-child) {
+  margin-right: 8px;
+}
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-toggle::after {
+   transition: transform 0.15s linear; 
+}
+.show.dropdown .dropdown-toggle::after {
+  transform: translateY(3px);
+}
